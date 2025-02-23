@@ -1,0 +1,7 @@
+C:\Users\peamm\source\repos\lernOOPC#\lernOOPC#\bin\Debug\lernOOPC#.exe.config
+C:\Users\peamm\source\repos\lernOOPC#\lernOOPC#\bin\Debug\lernOOPC#.exe
+C:\Users\peamm\source\repos\lernOOPC#\lernOOPC#\bin\Debug\lernOOPC#.pdb
+C:\Users\peamm\source\repos\lernOOPC#\lernOOPC#\obj\Debug\lernOOPC#.csproj.AssemblyReference.cache
+C:\Users\peamm\source\repos\lernOOPC#\lernOOPC#\obj\Debug\lernOOPC#.csproj.CoreCompileInputs.cache
+C:\Users\peamm\source\repos\lernOOPC#\lernOOPC#\obj\Debug\lernOOPC#.exe
+C:\Users\peamm\source\repos\lernOOPC#\lernOOPC#\obj\Debug\lernOOPC#.pdb
