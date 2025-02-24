@@ -43,18 +43,12 @@ namespace lernOOPC_
             Console.WriteLine("Name = " + emp2.Name);
             Console.WriteLine("Salary = " + emp2.Salary);*/
 
-            Acc emp1 = new Acc("bannawit",5000,"male");
-            Sale emp2 = new Sale("kunakorn",35000,"bangna");
-            Programmer emp3 = new Programmer("peammawat",75000,5);
-            emp1.Name = "bannawit";
-            emp1.Salary = 50000;
-            emp1.Gender = "male";
-            emp2.Name = "kunakorn";
-            emp2.Salary = 35000;
-            emp2.Area = "bangna";
-            emp3.Name = "peam";
-            emp3.Exp = 5;
-            emp3.Salary = 75000;
+            Employee emp1 = new Acc("bannawit",5000,"male");
+            Employee emp2 = new Sale("kunakorn",35000,"bangna");
+            Employee emp3 = new Programmer("peammawat",75000,5);
+            emp1.showEmployee();
+            emp2.showEmployee();
+            emp3.showEmployee();
             Console.ReadKey();
         }
     }

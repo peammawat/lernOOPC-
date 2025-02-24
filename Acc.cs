@@ -14,9 +14,17 @@ namespace lernOOPC_
         public Acc(string name,int salary,string gender):base(name,salary)
         {
             this.gender = gender;
-            Console.WriteLine(name + " Working On " + base.officeName);
+            /*Console.WriteLine(name + " Working On " + base.officeName);*/
         }
 
         public string Gender { get => gender; set => gender = value; }
+
+        public override void showEmployee()
+        {
+            Console.WriteLine("Name = " + base.Name);
+            Console.WriteLine("Salary = " + base.Salary);
+            Console.WriteLine("Gender = " + this.Gender);
+            Console.WriteLine("-------------");
+        }
     }
 }

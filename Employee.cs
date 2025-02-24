@@ -66,5 +66,11 @@ namespace lernOOPC_
 
         public string Name { get => name; set => name = value; }
         public int Salary { get => salary; set => salary = value; }
+
+        public virtual void showEmployee() {
+            Console.WriteLine("Name = " + this.name);
+            Console.WriteLine("Salary = " + this.salary);
+            Console.WriteLine("-------------");
+        }
     }
 }
