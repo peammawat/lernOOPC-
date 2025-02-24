@@ -14,6 +14,7 @@ namespace lernOOPC_
         public Acc(string name,int salary,string gender):base(name,salary)
         {
             this.gender = gender;
+            Console.WriteLine(name + " Working On " + base.officeName);
         }
 
         public string Gender { get => gender; set => gender = value; }

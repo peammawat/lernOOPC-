@@ -13,6 +13,8 @@ namespace lernOOPC_
         private string name;
         private int salary;
 
+        protected string officeName = "onebit production";
+
         public Employee() {
             Console.WriteLine("Create object Employee Class");
         }
